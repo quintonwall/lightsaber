@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (3.0.0)
+  - lightsaber (0.1.0):
+    - Alamofire (~> 3.0.0-beta.3)
+    - OAuthSwift (~> 0.4.6)
+  - Nimble (2.0.0)
+  - OAuthSwift (0.4.6)
+  - SwiftyJSON (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0.0-beta.3)
+  - lightsaber (from `../`)
+  - Nimble
+  - OAuthSwift (~> 0.4.6)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  lightsaber:
+    :path: ../
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 83dc3138b14571200ea7f070933a2a510491e997
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: b61782387f81bcc538a0284cf2bb5d7995cd0a80
+  lightsaber: 5ca6f3b667fe830909824ba058ba830cf9d3d88f
+  Nimble: 472e75466819eb8c06299233e87c694a9b51328a
+  OAuthSwift: 8c738cc56c942a541f5c6d0362a892cb149d10b1
+  SwiftyJSON: cacfe0373d584585716bd1d43202c24cc66afd65
+
+COCOAPODS: 0.39.0

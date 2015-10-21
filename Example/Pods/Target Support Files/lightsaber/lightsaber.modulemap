@@ -1,0 +1,6 @@
+framework module lightsaber {
+  umbrella header "lightsaber-umbrella.h"
+
+  export *
+  module * { export * }
+}
